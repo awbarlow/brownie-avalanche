@@ -1,7 +1,14 @@
 networks:
   avax-main:
+    # AAVE
     lending_pool_addresses_provider: "0x4F01AeD16D97E3aB5ab2B501154DC9bb0F1A5A2C"
     aave_incetives: "0x01d83fe6a10d2f2b7af17034343746188272cac9"
+
+    # Tokens
+    wavax_address: '0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7'
+
+    # Gateway
+    eth_gateway: '0x8a47F74d1eE0e2edEB4F3A7e64EF3bD8e11D27C8'
 wallets:
   from_key: ${PRIVATE_KEY}
   lev_key: ${LEVERAGE}
