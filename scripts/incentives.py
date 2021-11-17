@@ -116,4 +116,4 @@ def main():
 
                             Rewards reinvested: {amount / (10 ** 18)} AVAX
                             """
-                    send_message(message)
+                send_message(message)
