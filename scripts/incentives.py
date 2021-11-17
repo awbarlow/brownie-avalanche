@@ -101,7 +101,7 @@ def main():
         attempt3 = 0
         while attempt3 <= 10 and deposit != True:
             try:
-                tx3 = deposit_wmatic(amount, account)
+                tx3 = deposit_wavax(amount, account)
                 tx3.wait(1)
                 deposit = True
             except:
