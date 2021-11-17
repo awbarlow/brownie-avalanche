@@ -1,0 +1,7 @@
+networks:
+  avax-main:
+    lending_pool_addresses_provider: "0x4F01AeD16D97E3aB5ab2B501154DC9bb0F1A5A2C"
+    aave_incetives: "0x01d83fe6a10d2f2b7af17034343746188272cac9"
+wallets:
+  from_key: ${PRIVATE_KEY}
+  lev_key: ${LEVERAGE}
