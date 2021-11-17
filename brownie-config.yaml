@@ -1,7 +1,7 @@
 networks:
   avax-main:
     # AAVE
-    lending_pool_addresses_provider: "0x4F01AeD16D97E3aB5ab2B501154DC9bb0F1A5A2C"
+    lending_pool_addresses_provider: "0xb6A86025F0FE1862B372cb0ca18CE3EDe02A318f"
     aave_incetives: "0x01d83fe6a10d2f2b7af17034343746188272cac9"
 
     # Tokens
