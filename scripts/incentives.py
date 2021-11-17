@@ -1,6 +1,7 @@
 from scripts.helper import get_account
 from brownie import interface, config, network
 from web3 import Web3
+import time
 
 assets = { 'Aave Avalanche Market USDC' : "0x46a51127c3ce23fb7ab1de06226147f446e4a857",
            'Aave Avalanche Market variable debt vUSDC' : '0x848c080d2700cbe1b894a3374ad5e887e5ccb89c',
