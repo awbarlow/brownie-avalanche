@@ -92,7 +92,7 @@ def main():
 
     avax_balance = account.balance()
     deposit_cond = False
-    if avax_balance > Web3.toWei(.05, "ether"):
+    if avax_balance > Web3.toWei(.05, "ether") and unwrap = True:
         amount = avax_balance - Web3.toWei(0.05, "ether")
         deposit_cond = True
 
