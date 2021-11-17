@@ -57,7 +57,7 @@ def main():
 
     print(bal/(10**18))
 
-    if bal > Web3.toWei(0.07, "ether"):
+    if bal > Web3.toWei(0.1, "ether"):
         # Claim - while loop allows for failures which tends to happen
         attempt1 = 0
         claim = False
