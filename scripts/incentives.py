@@ -99,15 +99,15 @@ def main():
     if deposit_cond == True:
         deposit = False
         attempt3 = 0
-        #while attempt3 <= 10 and deposit != True:
-            #try:
-        tx3 = deposit_wavax(amount, account)
-        tx3.wait(1)
-        deposit = True
-            #except:
-            #    attempt3 += 1
-            #    time.sleep(5)
-            #    pass
+        while attempt3 <= 10 and deposit != True:
+            try:
+                tx3 = deposit_wavax(amount, account)
+                tx3.wait(1)
+                deposit = True
+            except:
+                attempt3 += 1
+                time.sleep(5)
+                pass
 
         if deposit == True:
             message = f"""\  
