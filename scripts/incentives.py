@@ -1,4 +1,5 @@
 from scripts.helper import get_account
+from scripts.send import send_message
 from brownie import interface, config, network
 from web3 import Web3
 import time
