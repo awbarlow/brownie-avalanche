@@ -57,7 +57,7 @@ def main():
 
     print(bal/(10**18))
 
-    if bal > Web3.toWei(0.1, "ether"):
+    if bal > Web3.toWei(0.11, "ether"):
         # Claim - while loop allows for failures which tends to happen
         attempt1 = 0
         claim = False
@@ -76,7 +76,7 @@ def main():
     wavax = interface.IERC20(wavax_address)
     wavax_bal = wavax.balanceOf(account)
 
-    if wavax_bal >= Web3.toWei(0.11, "ether"):
+    if wavax_bal >= Web3.toWei(0.09, "ether"):
         # Claim - while loop allows for failures which tends to happen
         attempt2 = 0
         unwrap = False
