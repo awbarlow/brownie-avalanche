@@ -58,7 +58,7 @@ def main():
 
     print(bal/(10**18))
 
-    if bal > Web3.toWei(0.11, "ether"):
+    if bal > Web3.toWei(0.15, "ether"):
         # Claim - while loop allows for failures which tends to happen
         attempt1 = 0
         claim = False
@@ -77,7 +77,7 @@ def main():
     wavax = interface.IERC20(wavax_address)
     wavax_bal = wavax.balanceOf(account)
 
-    if wavax_bal >= Web3.toWei(0.09, "ether"):
+    if wavax_bal >= Web3.toWei(0.15, "ether"):
         # Claim - while loop allows for failures which tends to happen
         attempt2 = 0
         unwrap = False
@@ -94,8 +94,9 @@ def main():
     avax_balance = account.balance()
     deposit_cond = False
     if avax_balance > Web3.toWei(.1, "ether") and unwrap == True:
-        amount = avax_balance - Web3.toWei(0.1, "ether")
-        deposit_cond = True
+        amount = avax_balance - Web3.toWei(0.15, "ether")
+        if amount >= Web3.toWei(0.1, "ether"):
+            deposit_cond = True
 
     if deposit_cond == True:
         deposit = False
