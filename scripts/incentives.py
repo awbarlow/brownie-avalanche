@@ -5,6 +5,7 @@ from web3 import Web3
 import time
 
 assets = { 'Aave Avalanche Market USDC' : "0x46a51127c3ce23fb7ab1de06226147f446e4a857",
+           'AAVE Avalanche Market WETH.e' : '0x53f7c5869a859f0aec3d334ee8b4cf01e3492f21',
            'Aave Avalanche Market variable debt vUSDC' : '0x848c080d2700cbe1b894a3374ad5e887e5ccb89c',
            'Aave Avalanche Market DAI' : '0x47afa96cdc9fab46904a55a6ad4bf6660b53c38a',
            'Aave Avalanche Market wBTC.e' : '0x686bef2417b6dc32c50a3cbfbcc3bb60e1e9a15d',
