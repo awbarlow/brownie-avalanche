@@ -6,6 +6,8 @@ networks:
 
     # Tokens
     wavax_address: '0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7'
+    dai.e: '0xd586e7f844cea2f87f50152665bcbc2c279d8d70'
+    weth.e: '0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab'
 
     # Gateway
     eth_gateway: '0x8a47F74d1eE0e2edEB4F3A7e64EF3bD8e11D27C8'
